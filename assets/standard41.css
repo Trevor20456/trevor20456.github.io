@@ -1,0 +1,26 @@
+/* Standard 4.1 and its two artifacts. Preserve the portfolio's existing theme. */
+.standard41 .prose-card { color: var(--ink); }
+.standard41 .prose-card > h3:not(:first-child) { margin-top: 2rem; }
+.standard41 .prose-card li + li { margin-top: .6rem; }
+.standard41 .portfolio-evidence { margin: 1.5rem 0; }
+.standard41 .portfolio-evidence img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: .5rem; background: #fff; }
+.standard41 .portfolio-evidence figcaption { margin-top: .65rem; font-size: .9rem; line-height: 1.5; color: var(--muted); }
+.standard41 .portfolio-evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.standard41 .portfolio-file-links { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.5rem; margin: 1rem 0; }
+.standard41 .portfolio-reflections { max-width: 770px; }
+.standard41 .portfolio-reflections article + article { margin-top: 1.8rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.standard41 .portfolio-table-wrap { max-width: 100%; overflow-x: auto; }
+.standard41 table { border-collapse: collapse; width: 100%; font-size: 1rem; }
+.standard41 caption { text-align: left; padding: 1rem 0; font-weight: 700; }
+.standard41 th, .standard41 td { border: 1px solid var(--line); text-align: left; padding: .8rem; vertical-align: top; }
+.standard41 thead { background: var(--navy-950); color: #fff; }
+.standard41 tbody th { font-weight: 400; width: 56%; }
+.standard41 tbody tr:nth-child(even) { background: var(--surface-soft, #f1f5f9); }
+.standard41 dt { font-weight: 700; margin-top: 1rem; }
+.standard41 dd { margin: .4rem 0 1rem; }
+@media (max-width: 700px) {
+  .standard41 .portfolio-evidence-grid { grid-template-columns: minmax(0, 1fr); }
+  .standard41 .prose-card { padding: 1.1rem; }
+  .standard41 th, .standard41 td { padding: .5rem; overflow-wrap: anywhere; }
+  .standard41 .page-pagination { gap: 1rem; flex-wrap: wrap; }
+}
