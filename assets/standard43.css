@@ -2,6 +2,8 @@
 .standard43 .prose-card { color: var(--ink); }
 .standard43 .prose-card > h3:not(:first-child) { margin-top: 2rem; }
 .standard43 .prose-card p, .standard43 .review-note p { line-height: 1.75; }
+.standard43 .prose-card p + p, .standard43 .review-note p + p { margin-top: 1rem; }
+.standard43 .artifact-preview p + p { margin-top: .7rem; }
 .standard43 .prose-card li + li { margin-top: .55rem; }
 .standard43 .review-note { background: #edf4f7; border-left: 4px solid #397580; border-radius: 0 .6rem .6rem 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2.5rem; }
 .standard43 .review-note h2 { font-size: 1.2rem; margin: 0 0 .5rem; }
