@@ -1,0 +1,48 @@
+/* Standard 4.4 and its educator resources, using the existing portfolio theme. */
+.standard44 .prose-card { color: var(--ink); }
+.standard44 .prose-card > h3:not(:first-child) { margin-top: 2rem; }
+.standard44 .prose-card p, .standard44 .review-note p { line-height: 1.75; }
+.standard44 .prose-card p + p, .standard44 .review-note p + p { margin-top: 1rem; }
+.standard44 .artifact-preview p + p { margin-top: .7rem; }
+.standard44 .prose-card li + li { margin-top: .55rem; }
+.standard44 .review-note { background: #edf4f7; border-left: 4px solid #397580; border-radius: 0 .6rem .6rem 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2.5rem; }
+.standard44 .review-note h2 { font-size: 1.2rem; margin: 0 0 .5rem; }
+.standard44 .review-note p:last-child { margin-bottom: 0; }
+.standard44 .portfolio-file-links { margin: 1.25rem 0; }
+.standard44 .artifact-link { display: inline-block; padding: .85rem 1.1rem; border: 1px solid #b6cbd2; border-radius: .45rem; background: #edf4f7; font-weight: 700; }
+.standard44 .artifact-preview { background: #f4f6f8; border: 1px solid var(--line); padding: 1.25rem 1.5rem; border-radius: .6rem; margin: 1.5rem 0; }
+.standard44 .artifact-preview .eyebrow { margin-top: 0; }
+.standard44 .portfolio-reflections article + article, .standard44 .survey-questions article + article { margin-top: 1.75rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.standard44 .portfolio-table-wrap { max-width: 100%; overflow-x: auto; }
+.standard44 table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.standard44 caption { text-align: left; font-weight: 700; padding: .75rem 0; }
+.standard44 th, .standard44 td { border: 1px solid var(--line); padding: .8rem; text-align: left; vertical-align: top; }
+.standard44 thead { background: #183345; color: white; }
+.standard44 tbody th { font-weight: 600; }
+.standard44 .response-line { border-bottom: 1px solid #a6b6c1; min-height: 3.5rem; padding-bottom: 1.75rem; }
+.standard44 .page-pagination { gap: 1.25rem; flex-wrap: wrap; }
+.standard44 .section-jump { display: flex; flex-wrap: wrap; gap: .65rem 1.4rem; border-block: 1px solid var(--line); padding: 1rem 0; margin: 1rem 0 2.5rem; font-size: .95rem; font-weight: 600; }
+.standard44 [id] { scroll-margin-top: 1.5rem; }
+.standard44 .artifact-preview h3 { margin-top: .4rem; }
+.standard44 .portfolio-table-wrap { margin: 1rem 0 1.5rem; }
+.standard44 table td { min-width: 10rem; }
+.standard44 tbody tr:nth-child(even) { background: #f6f8fa; }
+.standard44 .source-figure { margin: 1.5rem 0 2rem; max-width: 400px; }
+.standard44 .source-figure img { width: 100%; height: auto; display: block; border: 1px solid var(--line); }
+.standard44 .source-figure figcaption { font-size: .88rem; line-height: 1.6; color: #405368; padding-top: .7rem; }
+@media(max-width: 700px) { .standard44 .prose-card { padding: 1.1rem; } .standard44 .review-note, .standard44 .artifact-preview { padding: 1rem; } .standard44 th, .standard44 td { padding: .5rem; overflow-wrap: anywhere; } }
+@media print { .site-header, .site-footer, .skip-link, .page-pagination { display:none; } .standard44 .page-wrap { padding:0; max-width:none; } .standard44 .prose-card { padding:.4rem 0; border:0; box-shadow:none; } .standard44 .content-section { margin:1rem 0; } .standard44 h2, .standard44 h3 { break-after:avoid; } .standard44 tr { break-inside:avoid; } .standard44 { font-size:10pt; } }
+
+.standard44 .prose-card { max-width: 100%; }
+.standard44 .prose-card > h3 { color: #173e51; }
+.standard44 figcaption { color: #45596b; font-size: .9rem; line-height: 1.6; padding-top: .8rem; }
+.standard44 .template-image { display:block; width:100%; height:auto; border:1px solid #d7dfe5; margin:1rem 0; }
+.standard44 .design-example { margin: 1rem 0; }
+.standard44 .design-example dt { font-weight: 750; color: #173e51; margin-top: .9rem; }
+.standard44 .design-example dd { margin: .2rem 0 0; }
+.standard44 .artifact-preview { border-left: 4px solid #397580; }
+.standard44 a { overflow-wrap: anywhere; }
+.standard44 .prose-card ol, .standard44 .prose-card ul { padding-left: 1.5rem; }
+.standard44 .prose-card li { line-height: 1.65; }
+.standard44 .page-intro h1 { max-width: 100%; }
+@media (max-width: 700px) { .standard44 table td { min-width: 8rem; } .standard44 .artifact-link { width: 100%; } }
