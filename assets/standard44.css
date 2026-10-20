@@ -36,6 +36,7 @@
 .standard44 .prose-card { max-width: 100%; }
 .standard44 .prose-card > h3 { color: #173e51; }
 .standard44 figcaption { color: #45596b; font-size: .9rem; line-height: 1.6; padding-top: .8rem; }
+.standard44 .toolkit-preview { display:block; width:100%; max-width:840px; height:auto; margin:1rem auto; }
 .standard44 .template-image { display:block; width:100%; height:auto; border:1px solid #d7dfe5; margin:1rem 0; }
 .standard44 .design-example { margin: 1rem 0; }
 .standard44 .design-example dt { font-weight: 750; color: #173e51; margin-top: .9rem; }

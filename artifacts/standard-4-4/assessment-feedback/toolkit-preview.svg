@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="680" viewBox="0 0 840 680" role="img" aria-labelledby="preview-title preview-description">
+  <title id="preview-title">From feedback to a stronger research plan</title>
+  <desc id="preview-description">A condensed synthetic example, not student work. Original response: Two links to the same article give us two sources. Feedback: Count distinct works. What does each partner need to research? Revised reasoning: We have one work. We need a different scholarly source. The project requires two distinct scholarly works.</desc>
+  <rect width="840" height="680" rx="20" fill="#FAF7F0"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="43" fill="#994623" font-size="14" font-weight="700" letter-spacing="1.4">MODELED EXAMPLE · NOT STUDENT WORK</text>
+    <text x="48" y="88" fill="#183345" font-size="33" font-weight="700">From feedback to stronger reasoning</text>
+    <text x="48" y="121" fill="#435B67" font-size="18">A revision students can explain independently</text>
+
+    <rect x="48" y="157" width="744" height="112" rx="12" fill="#FFFFFF" stroke="#DCCAB9" stroke-width="1.5"/>
+    <rect x="48" y="157" width="7" height="112" rx="3" fill="#C56D3D"/>
+    <circle cx="86" cy="191" r="17" fill="#F8E7DA"/>
+    <text x="86" y="197" text-anchor="middle" fill="#8E411E" font-size="16" font-weight="700">1</text>
+    <text x="119" y="185" fill="#8E411E" font-size="14" font-weight="700" letter-spacing="1">ORIGINAL RESPONSE</text>
+    <text x="119" y="218" fill="#183345" font-size="23">Two links to the same article</text>
+    <text x="119" y="248" fill="#183345" font-size="23">give us two sources.</text>
+
+    <path d="M86 278 V295 M80 289 L86 295 L92 289" fill="none" stroke="#7C929B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="48" y="305" width="744" height="112" rx="12" fill="#EDF4F7" stroke="#BACDD4" stroke-width="1.5"/>
+    <rect x="48" y="305" width="7" height="112" rx="3" fill="#397580"/>
+    <circle cx="86" cy="339" r="17" fill="#D3E6EA"/>
+    <text x="86" y="345" text-anchor="middle" fill="#245862" font-size="16" font-weight="700">2</text>
+    <text x="119" y="333" fill="#245862" font-size="14" font-weight="700" letter-spacing="1">FEEDBACK</text>
+    <text x="119" y="366" fill="#183345" font-size="23">Count distinct works. What does</text>
+    <text x="119" y="396" fill="#183345" font-size="23">each partner need to research?</text>
+
+    <path d="M86 426 V443 M80 437 L86 443 L92 437" fill="none" stroke="#7C929B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="48" y="453" width="744" height="112" rx="12" fill="#183345"/>
+    <circle cx="86" cy="487" r="17" fill="#395867"/>
+    <text x="86" y="493" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700">3</text>
+    <text x="119" y="481" fill="#BFE2E4" font-size="14" font-weight="700" letter-spacing="1">REVISED REASONING</text>
+    <text x="119" y="514" fill="#FFFFFF" font-size="23">We have one work. We need</text>
+    <text x="119" y="544" fill="#FFFFFF" font-size="23">a different scholarly source.</text>
+
+    <text x="48" y="609" fill="#183345" font-size="17" font-weight="700">Success criterion: two distinct scholarly works.</text>
+    <text x="48" y="639" fill="#435B67" font-size="16">Condensed from the toolkit’s synthetic research-plan revision.</text>
+  </g>
+</svg>
